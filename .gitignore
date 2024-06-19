@@ -1,0 +1,14 @@
+*.pt
+*.pth
+*.csv
+*.pyc
+*.png
+
+pretrain/*
+saved_models/*
+deit/
+
+__pycache__/
+runs/
+
+requirements_previous.txt
