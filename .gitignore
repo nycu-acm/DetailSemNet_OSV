@@ -2,7 +2,6 @@
 *.pth
 *.csv
 *.pyc
-*.png
 
 pretrain/*
 saved_models/*
