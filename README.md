@@ -18,7 +18,7 @@ DetailSemNet is a novel approach for Offline Signature Verification (OSV) that e
 
 ## Conclusion
 
-In this paper, we introduce **DetailSemNet**, a novel model for Offline Signature Verification (OSV) that emphasizes local patch features in Structural Matching, a shift from traditional holistic approaches. **DetailSemNet** also incorporates the Detail-Semantics Integrator (DSI) to enhance structural matching, effectively capturing detailed and semantic aspects. Our results demonstrate that \textbf{DetailSemNet} outperforms existing methods in both single-dataset and cross-dataset scenarios, highlighting its strong generalization capability and potential for real-world application. These findings indicate the effectiveness of combining the DSI module with Structural Matching in OSV models, positioning **DetailSemNet** as a significant advancement in forensic technology.
+In this paper, we introduce **DetailSemNet**, a novel model for Offline Signature Verification (OSV) that emphasizes local patch features in Structural Matching, a shift from traditional holistic approaches. **DetailSemNet** also incorporates the Detail-Semantics Integrator (DSI) to enhance structural matching, effectively capturing detailed and semantic aspects. Our results demonstrate that **DetailSemNet** outperforms existing methods in both single-dataset and cross-dataset scenarios, highlighting its strong generalization capability and potential for real-world application. These findings indicate the effectiveness of combining the DSI module with Structural Matching in OSV models, positioning **DetailSemNet** as a significant advancement in forensic technology.
 
 ## Environments
 
