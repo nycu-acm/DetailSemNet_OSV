@@ -20,9 +20,32 @@ DetailSemNet is a novel approach for Offline Signature Verification (OSV) that e
 
 In this paper, we introduce **DetailSemNet**, a novel model for Offline Signature Verification (OSV) that emphasizes local patch features in Structural Matching, a shift from traditional holistic approaches. **DetailSemNet** also incorporates the Detail-Semantics Integrator (DSI) to enhance structural matching, effectively capturing detailed and semantic aspects. Our results demonstrate that **DetailSemNet** outperforms existing methods in both single-dataset and cross-dataset scenarios, highlighting its strong generalization capability and potential for real-world application. These findings indicate the effectiveness of combining the DSI module with Structural Matching in OSV models, positioning **DetailSemNet** as a significant advancement in forensic technology.
 
-## Environments
+## Installation
 
 ```text
 pip install -r requirements.txt
 ```
 
+## Enviroment
+
+python: 3.7.13\
+torch: 1.12.1+cu102\
+torchvision: 0.13.1+cu102
+
+## Dataset
+
+TBD
+
+## Usage
+
+Training BHSig-H (Hindi) Dataset:
+
+```text
+CUDA_VISIBLE_DEVICES=0 python train_vit.py --data ./../BHSig260/Hindi --batchSize 4 --emd --part
+```
+
+Testing BHSig-H (Hindi) Dataset:
+
+```text
+CUDA_VISIBLE_DEVICES=0 python train_vit.py --data ./../BHSig260/Hindi --batchSize 4 --emd --part --test_only --load "best.pt"
+```
