@@ -49,3 +49,5 @@ Testing BHSig-H (Hindi) Dataset:
 ```text
 CUDA_VISIBLE_DEVICES=0 python train_vit.py --data ./../BHSig260/Hindi --batchSize 4 --emd --part --test_only --load "best.pt"
 ```
+
+## Acknowledgement
