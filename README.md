@@ -51,3 +51,7 @@ CUDA_VISIBLE_DEVICES=0 python train_vit.py --data ./../BHSig260/Hindi --batchSiz
 ```
 
 ## Acknowledgement
+
+Transformer code: https://github.com/facebookresearch/deit \
+iFormer code: https://github.com/sail-sg/iFormer
+Full ChiSig dataset: https://github.com/dskezju/Chisig
